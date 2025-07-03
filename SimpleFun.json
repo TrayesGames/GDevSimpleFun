@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 231,
+    "build": 233,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -311,57 +311,69 @@
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Grouped events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "Text",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "BlueButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "Text",
+                    "=",
+                    "\"Hello and welcome!\n\nWe are here to learn and have fun.\n\nThis is not a race to the end.\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "\"\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-              },
-              "parameters": [
-                "BlueButton",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "NewText",
-                "Text",
-                "=",
-                "\"Hello and welcome!\n\nWe are here to learn and have fun.\n\nThis is not a race to the end.\""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
@@ -1560,8 +1572,6 @@
               "type": "Boolean",
               "label": "",
               "description": "Should check hovering",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "ShouldCheckHovering"
             },
@@ -1569,8 +1579,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "description": "",
-              "group": "",
               "extraInformation": [
                 "Idle",
                 "Hovered",
@@ -1585,9 +1593,6 @@
               "value": "0",
               "type": "Number",
               "label": "Touch id",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchId"
             },
@@ -1595,9 +1600,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Touch is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "TouchIsInside"
             },
@@ -1605,9 +1607,6 @@
               "value": "",
               "type": "Boolean",
               "label": "Mouse is inside",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "MouseIsInside"
             },
@@ -1615,9 +1614,6 @@
               "value": "",
               "type": "Number",
               "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "hidden": true,
               "name": "Index"
             }
@@ -3110,16 +3106,12 @@
               "value": "0",
               "type": "Number",
               "label": "Label offset on Y axis when pressed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "PressedLabelOffsetY"
             },
             {
               "value": "0",
               "type": "Number",
               "label": "Left padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -3130,7 +3122,6 @@
               "value": "0",
               "type": "Number",
               "label": "Right padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -3141,7 +3132,6 @@
               "value": "0",
               "type": "Number",
               "label": "Top padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -3152,7 +3142,6 @@
               "value": "0",
               "type": "Number",
               "label": "Bottom padding",
-              "description": "",
               "group": "Padding",
               "extraInformation": [
                 "Label"
@@ -3163,9 +3152,6 @@
               "value": "0.25",
               "type": "Number",
               "label": "Hovered fade out duration (in seconds)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
               "name": "HoveredFadeOutDuration"
             }
           ],
