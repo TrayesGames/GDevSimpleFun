@@ -210,6 +210,110 @@
         "name": "assets\\32x32pixelmeleeweapon1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/BlackCat/IdleCatb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BlackCat\\IdleCatb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/05_apple_pie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\05_apple_pie.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/07_bread.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\07_bread.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/09_baguette.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\09_baguette.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/11_bun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\11_bun.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/13_bacon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\13_bacon.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -269,7 +373,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.6337626779315035,
+        "zoomFactor": 0.4950840073748899,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -281,7 +385,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewText",
+          "name": "TextOutput",
           "persistentUuid": "f959b0b5-584a-4a8f-a16f-047b2edd4140",
           "width": 0,
           "x": 67,
@@ -298,11 +402,11 @@
           "height": 180,
           "keepRatio": true,
           "layer": "",
-          "name": "BlueButton",
+          "name": "FindStuffButton",
           "persistentUuid": "21974bcb-6a7b-4c80-9227-4fdca95c4b24",
-          "width": 223,
-          "x": 257,
-          "y": 1004,
+          "width": 255,
+          "x": 225,
+          "y": 992,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -342,15 +446,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 66,
           "keepRatio": true,
           "layer": "",
           "name": "ProgressBar",
           "persistentUuid": "784150a5-5af7-4f53-aa28-ddf5b0a5bf42",
-          "width": 0,
-          "x": 256,
-          "y": 928,
+          "width": 448,
+          "x": 128,
+          "y": 894,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -362,12 +467,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Sword",
           "persistentUuid": "1199376d-1ba7-492b-8f45-0d663772b4b9",
           "width": 0,
           "x": 288,
           "y": 768,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BlackCat",
+          "persistentUuid": "7cdd8dd6-172f-4ab2-b545-795f6562c0e5",
+          "width": 0,
+          "x": 384,
+          "y": 576,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -378,7 +499,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "NewText",
+          "name": "TextOutput",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -418,7 +539,7 @@
         },
         {
           "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-          "name": "BlueButton",
+          "name": "FindStuffButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
           "variables": [],
@@ -500,38 +621,6 @@
               "width": 256
             }
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Bandage",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "InvAmount",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "InvMax",
-              "type": "number",
-              "value": 10
-            },
-            {
-              "name": "StorageAmount",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "StorageMax",
-              "type": "number",
-              "value": 999
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -682,26 +771,6 @@
           ]
         },
         {
-          "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
-          "name": "CopperRedBar",
-          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-          "variant": "Copper Red Bar",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "MaxValue": 16,
-            "InitialValue": 8,
-            "BarLeftPadding": 9,
-            "BarRightPadding": 9,
-            "BarBottomPadding": 3,
-            "BarTopPadding": 3,
-            "EasingDuration": 0.25,
-            "PreviousHighValueDuration": 0,
-            "ShowLabel": false
-          }
-        },
-        {
           "assetStoreId": "0a398f1656e34f64758c909a71ca17cd69fd41bd251d89ff5a640303c4279f50",
           "name": "ProgressBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
@@ -729,7 +798,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Sword",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -785,34 +854,643 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BlackCat",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 8
+                          },
+                          {
+                            "x": 28,
+                            "y": 30
+                          },
+                          {
+                            "x": 4,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ApplePie",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\05_apple_pie.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 6
+                          },
+                          {
+                            "x": 29,
+                            "y": 6
+                          },
+                          {
+                            "x": 29,
+                            "y": 27
+                          },
+                          {
+                            "x": 3,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bread",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\07_bread.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 7
+                          },
+                          {
+                            "x": 30,
+                            "y": 7
+                          },
+                          {
+                            "x": 30,
+                            "y": 26
+                          },
+                          {
+                            "x": 2,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Baguette",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\09_baguette.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 6
+                          },
+                          {
+                            "x": 29,
+                            "y": 6
+                          },
+                          {
+                            "x": 29,
+                            "y": 28
+                          },
+                          {
+                            "x": 3,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Buns",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\11_bun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 7
+                          },
+                          {
+                            "x": 28,
+                            "y": 7
+                          },
+                          {
+                            "x": 28,
+                            "y": 26
+                          },
+                          {
+                            "x": 5,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bacon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\13_bacon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 6
+                          },
+                          {
+                            "x": 27,
+                            "y": 6
+                          },
+                          {
+                            "x": 27,
+                            "y": 27
+                          },
+                          {
+                            "x": 4,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewText"
+            "folderName": "Food",
+            "children": [
+              {
+                "objectName": "ApplePie"
+              },
+              {
+                "objectName": "Bread"
+              },
+              {
+                "objectName": "Baguette"
+              },
+              {
+                "objectName": "Buns"
+              },
+              {
+                "objectName": "Bacon"
+              }
+            ]
           },
           {
-            "objectName": "BlueButton"
+            "folderName": "UI",
+            "children": [
+              {
+                "objectName": "ProgressBar"
+              },
+              {
+                "objectName": "MenuPanel"
+              },
+              {
+                "objectName": "ToggleButton"
+              },
+              {
+                "objectName": "FindStuffButton"
+              },
+              {
+                "objectName": "TextOutput"
+              }
+            ]
           },
           {
-            "objectName": "Bandage"
+            "folderName": "Cats",
+            "children": [
+              {
+                "objectName": "BlackCat"
+              }
+            ]
           },
           {
-            "objectName": "ToggleButton"
-          },
-          {
-            "objectName": "MenuPanel"
-          },
-          {
-            "objectName": "CopperRedBar"
-          },
-          {
-            "objectName": "ProgressBar"
-          },
-          {
-            "objectName": "NewSprite"
+            "folderName": "MeleeWeapons",
+            "children": [
+              {
+                "objectName": "Sword"
+              }
+            ]
           }
         ]
       },
@@ -844,7 +1522,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "NewText",
+                    "TextOutput",
                     "Text",
                     "=",
                     "\"\""
@@ -894,7 +1572,7 @@
                     "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
                   },
                   "parameters": [
-                    "BlueButton",
+                    "FindStuffButton",
                     ""
                   ]
                 },
